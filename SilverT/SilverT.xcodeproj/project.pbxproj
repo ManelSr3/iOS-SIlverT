@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53253034241ABB920076B179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53253033241ABB920076B179 /* AppDelegate.swift */; };
+		53253036241ABB920076B179 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53253035241ABB920076B179 /* SceneDelegate.swift */; };
+		5325303B241ABB920076B179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53253039241ABB920076B179 /* Main.storyboard */; };
+		5325303E241ABB920076B179 /* SilverT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5325303C241ABB920076B179 /* SilverT.xcdatamodeld */; };
+		53253040241ABB930076B179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5325303F241ABB930076B179 /* Assets.xcassets */; };
+		53253043241ABB930076B179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53253041241ABB930076B179 /* LaunchScreen.storyboard */; };
+		5325304E241ABB940076B179 /* SilverTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325304D241ABB940076B179 /* SilverTTests.swift */; };
+		53253059241ABB940076B179 /* SilverTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53253058241ABB940076B179 /* SilverTUITests.swift */; };
+		53253068241ABBFD0076B179 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53253067241ABBFD0076B179 /* MainViewController.swift */; };
+		5325306A241ABC270076B179 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53253069241ABC270076B179 /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5325304A241ABB940076B179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53253028241ABB920076B179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5325302F241ABB920076B179;
+			remoteInfo = SilverT;
+		};
+		53253055241ABB940076B179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53253028241ABB920076B179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5325302F241ABB920076B179;
+			remoteInfo = SilverT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53253030241ABB920076B179 /* SilverT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53253033241ABB920076B179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53253035241ABB920076B179 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5325303A241ABB920076B179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5325303D241ABB920076B179 /* SilverT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SilverT.xcdatamodel; sourceTree = "<group>"; };
+		5325303F241ABB930076B179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53253042241ABB930076B179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53253044241ABB930076B179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53253049241ABB940076B179 /* SilverTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5325304D241ABB940076B179 /* SilverTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverTTests.swift; sourceTree = "<group>"; };
+		5325304F241ABB940076B179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53253054241ABB940076B179 /* SilverTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53253058241ABB940076B179 /* SilverTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverTUITests.swift; sourceTree = "<group>"; };
+		5325305A241ABB940076B179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53253067241ABBFD0076B179 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		53253069241ABC270076B179 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5325302D241ABB920076B179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253046241ABB940076B179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253051241ABB940076B179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53253027241ABB920076B179 = {
+			isa = PBXGroup;
+			children = (
+				53253032241ABB920076B179 /* SilverT */,
+				5325304C241ABB940076B179 /* SilverTTests */,
+				53253057241ABB940076B179 /* SilverTUITests */,
+				53253031241ABB920076B179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53253031241ABB920076B179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53253030241ABB920076B179 /* SilverT.app */,
+				53253049241ABB940076B179 /* SilverTTests.xctest */,
+				53253054241ABB940076B179 /* SilverTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53253032241ABB920076B179 /* SilverT */ = {
+			isa = PBXGroup;
+			children = (
+				53253066241ABB9E0076B179 /* Controllers */,
+				53253033241ABB920076B179 /* AppDelegate.swift */,
+				53253035241ABB920076B179 /* SceneDelegate.swift */,
+				53253039241ABB920076B179 /* Main.storyboard */,
+				5325303F241ABB930076B179 /* Assets.xcassets */,
+				53253041241ABB930076B179 /* LaunchScreen.storyboard */,
+				53253044241ABB930076B179 /* Info.plist */,
+				5325303C241ABB920076B179 /* SilverT.xcdatamodeld */,
+			);
+			path = SilverT;
+			sourceTree = "<group>";
+		};
+		5325304C241ABB940076B179 /* SilverTTests */ = {
+			isa = PBXGroup;
+			children = (
+				5325304D241ABB940076B179 /* SilverTTests.swift */,
+				5325304F241ABB940076B179 /* Info.plist */,
+			);
+			path = SilverTTests;
+			sourceTree = "<group>";
+		};
+		53253057241ABB940076B179 /* SilverTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53253058241ABB940076B179 /* SilverTUITests.swift */,
+				5325305A241ABB940076B179 /* Info.plist */,
+			);
+			path = SilverTUITests;
+			sourceTree = "<group>";
+		};
+		53253066241ABB9E0076B179 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53253067241ABBFD0076B179 /* MainViewController.swift */,
+				53253069241ABC270076B179 /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5325302F241ABB920076B179 /* SilverT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5325305D241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverT" */;
+			buildPhases = (
+				5325302C241ABB920076B179 /* Sources */,
+				5325302D241ABB920076B179 /* Frameworks */,
+				5325302E241ABB920076B179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverT;
+			productName = SilverT;
+			productReference = 53253030241ABB920076B179 /* SilverT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53253048241ABB940076B179 /* SilverTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53253060241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverTTests" */;
+			buildPhases = (
+				53253045241ABB940076B179 /* Sources */,
+				53253046241ABB940076B179 /* Frameworks */,
+				53253047241ABB940076B179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5325304B241ABB940076B179 /* PBXTargetDependency */,
+			);
+			name = SilverTTests;
+			productName = SilverTTests;
+			productReference = 53253049241ABB940076B179 /* SilverTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53253053241ABB940076B179 /* SilverTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53253063241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverTUITests" */;
+			buildPhases = (
+				53253050241ABB940076B179 /* Sources */,
+				53253051241ABB940076B179 /* Frameworks */,
+				53253052241ABB940076B179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53253056241ABB940076B179 /* PBXTargetDependency */,
+			);
+			name = SilverTUITests;
+			productName = SilverTUITests;
+			productReference = 53253054241ABB940076B179 /* SilverTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53253028241ABB920076B179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Manel;
+				TargetAttributes = {
+					5325302F241ABB920076B179 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					53253048241ABB940076B179 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5325302F241ABB920076B179;
+					};
+					53253053241ABB940076B179 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5325302F241ABB920076B179;
+					};
+				};
+			};
+			buildConfigurationList = 5325302B241ABB920076B179 /* Build configuration list for PBXProject "SilverT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53253027241ABB920076B179;
+			productRefGroup = 53253031241ABB920076B179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5325302F241ABB920076B179 /* SilverT */,
+				53253048241ABB940076B179 /* SilverTTests */,
+				53253053241ABB940076B179 /* SilverTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5325302E241ABB920076B179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53253043241ABB930076B179 /* LaunchScreen.storyboard in Resources */,
+				53253040241ABB930076B179 /* Assets.xcassets in Resources */,
+				5325303B241ABB920076B179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253047241ABB940076B179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253052241ABB940076B179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5325302C241ABB920076B179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325303E241ABB920076B179 /* SilverT.xcdatamodeld in Sources */,
+				5325306A241ABC270076B179 /* AddViewController.swift in Sources */,
+				53253034241ABB920076B179 /* AppDelegate.swift in Sources */,
+				53253036241ABB920076B179 /* SceneDelegate.swift in Sources */,
+				53253068241ABBFD0076B179 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253045241ABB940076B179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325304E241ABB940076B179 /* SilverTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53253050241ABB940076B179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53253059241ABB940076B179 /* SilverTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5325304B241ABB940076B179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5325302F241ABB920076B179 /* SilverT */;
+			targetProxy = 5325304A241ABB940076B179 /* PBXContainerItemProxy */;
+		};
+		53253056241ABB940076B179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5325302F241ABB920076B179 /* SilverT */;
+			targetProxy = 53253055241ABB940076B179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53253039241ABB920076B179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5325303A241ABB920076B179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53253041241ABB930076B179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53253042241ABB930076B179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5325305B241ABB940076B179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5325305C241ABB940076B179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5325305E241ABB940076B179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5325305F241ABB940076B179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53253061241ABB940076B179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverT.app/SilverT";
+			};
+			name = Debug;
+		};
+		53253062241ABB940076B179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverT.app/SilverT";
+			};
+			name = Release;
+		};
+		53253064241ABB940076B179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilverT;
+			};
+			name = Debug;
+		};
+		53253065241ABB940076B179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SilverTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Manel.SilverTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilverT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5325302B241ABB920076B179 /* Build configuration list for PBXProject "SilverT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325305B241ABB940076B179 /* Debug */,
+				5325305C241ABB940076B179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5325305D241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325305E241ABB940076B179 /* Debug */,
+				5325305F241ABB940076B179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53253060241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53253061241ABB940076B179 /* Debug */,
+				53253062241ABB940076B179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53253063241ABB940076B179 /* Build configuration list for PBXNativeTarget "SilverTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53253064241ABB940076B179 /* Debug */,
+				53253065241ABB940076B179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5325303C241ABB920076B179 /* SilverT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5325303D241ABB920076B179 /* SilverT.xcdatamodel */,
+			);
+			currentVersion = 5325303D241ABB920076B179 /* SilverT.xcdatamodel */;
+			path = SilverT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53253028241ABB920076B179 /* Project object */;
+}
